@@ -1,4 +1,4 @@
-// Solution 1
+// Take 1
 function solution(A) {
     // an empty object to store the counts
     let counts = {};
@@ -21,9 +21,4 @@ for (var num in counts) {
             return Number(num);
         }
     }
-}
-
-// Solution 2 (using XOR)
-function solution(A) {
-    return A.reduce((accumulator, currentValue) => accumulator ^ currentValue, 0);
 }
